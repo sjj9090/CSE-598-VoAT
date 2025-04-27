@@ -1,0 +1,7 @@
+In a 3×3×3 space, stacking blocks are arranged.
+You will receive 3 different views, front view, side view, and top view that show the block arrangement from each side. (❌=empty space, ⬜=block)
+Your goal is to understand the block arrangement and count the total number of stacking blocks in the grid.
+A block cannot be placed in mid-air; it needs a solid block underneath.
+Total count is your final output.
+
+Now This is the given problem

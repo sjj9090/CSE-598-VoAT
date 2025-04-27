@@ -1,0 +1,25 @@
+Navigation Task: for a provided map, 🏠 is the home as starting point, 🏢 is the
+office as the destination. □ means the road, 🚧 means the obstacle. There exists
+one and only one viable route for each map. Each step you choose a direction and
+move to the end of the continuous road or the destination. map:
+```
+
+🚧🚧🏠⬜⬜
+🚧🚧🚧🚧⬜
+⬜⬜⬜⬜⬜
+⬜🚧🚧🚧🚧
+🏢🚧🚧🚧🚧
+
+```
+You can choose one of four movements at each step:
+["right", "down", "left", "up"]
+You can only move one square at a time.
+Your goal is to represent the path from home to office using a list consisting of these four movement options.
+
+Starting from , provide the steps to navigate to .
+Visualize the state after each reasoning step.
+When visualizing, represent the position that moves at each step — the current location — using this emoji 📍.
+Location of 🏠 and 🏢 remains fixed in the moving process.
+
+And after visualization provide final list of movement command.
+

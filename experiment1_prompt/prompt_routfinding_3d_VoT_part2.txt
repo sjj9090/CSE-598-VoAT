@@ -1,0 +1,17 @@
+
+You can choose one of four movements at each step:
+["right", "down", "left", "up","climb","drop"]
+"right", "down", "left", "up" is the movement in same level, and "climb","drop" is movement between the different level.
+Inter-floor movement is only allowed if the corresponding position is a valid path (non-obstacle) on both floors.
+Moving to upper level (ex 1F->2F) is climb, and moving to lower level (ex 2F->1F) is drop.
+You can only move one square at a time.
+Your goal is to represent the path from home to office using a list consisting of these four movement options.
+
+Starting from , provide the steps to navigate to .
+Visualize the state after each reasoning step.
+When visualizing, represent the position that moves at each step — the current location — using this emoji 📍.
+Compared to the previous step's visualization, the current position must have moved exactly one square.
+Location of 🏠 and 🏢 remains fixed in the moving process.
+
+And after visualization provide final list of movement command.
+Based on the movement step, Provide length of the movement to reach the destination.
